@@ -20,40 +20,20 @@ public class GreatestNews {
         return mTitle;
     }
 
-    public void setTitle(String title) {
-        mTitle = title;
-    }
-
     public String getAuthor() {
         return mAuthor;
-    }
-
-    public void setAuthor(String author) {
-        mAuthor = author;
     }
 
     public String getUrl() {
         return mUrl;
     }
 
-    public void setUrl(String url) {
-        mUrl = url;
-    }
-
     public String getDate() {
         return mDate;
     }
 
-    public void setDate(String date) {
-        mDate = date;
-    }
-
     public String getTopic() {
         return mTopic;
-    }
-
-    public void setTopic(String topic) {
-        mTopic = topic;
     }
 
     @Override
