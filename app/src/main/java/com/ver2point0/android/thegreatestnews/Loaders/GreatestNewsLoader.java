@@ -1,7 +1,7 @@
 package com.ver2point0.android.thegreatestnews.Loaders;
 
-import android.content.AsyncTaskLoader;
 import android.content.Context;
+import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
 import com.ver2point0.android.thegreatestnews.Models.GreatestNews;

@@ -35,15 +35,4 @@ public class GreatestNews {
     public String getTopic() {
         return mTopic;
     }
-
-    @Override
-    public String toString() {
-        return "Greatest News{" +
-                "Title='" + mTitle + '\'' +
-                ", Author='" + mAuthor + '\'' +
-                ", Url='" + mUrl + '\'' +
-                ", Date='" + mDate + '\'' +
-                ", Topic='" + mTopic + '\'' +
-                '}';
-    }
 }
