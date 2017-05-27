@@ -94,8 +94,8 @@ public class QueryUtils {
                     webAuthor = null;
                 } else {
                     for (int j = 0; j < tags.length(); j++) {
-                        JSONObject object = tags.getJSONObject(i);
-                        webAuthor += object.getString("webTitle") + ". ";
+                        JSONObject object = tags.getJSONObject(j);
+                        webAuthor += object.getString("webTitle");
                     }
                 }
                 newsArrayList.add(new GreatestNews(webTitle, webAuthor, webUrl, webPublicationDate, sectionName));
