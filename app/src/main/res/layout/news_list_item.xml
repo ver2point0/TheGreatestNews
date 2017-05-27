@@ -10,14 +10,14 @@
         android:id="@+id/text_view_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Headlines! Headlines! Headlines, everywhere!"
+        tools:text="@string/title_placeholder"
         style="@style/Title"/>
 
     <TextView
         android:id="@+id/text_view_author"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Jane Doe"
+        tools:text="@string/author_placeholder"
         style="@style/Author"/>
 
     <LinearLayout
@@ -27,15 +27,15 @@
 
         <TextView
             android:id="@+id/text_view_date"
-            tools:text="Jan 1, 1970"
+            tools:text="@string/date_placeholder"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             style="@style/Date"/>
         
         <TextView
-            android:id="@+id/text_view_category"
-            tools:text="Topic"
+            android:id="@+id/text_view_topic"
+            tools:text="@string/topic_placeholder"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
