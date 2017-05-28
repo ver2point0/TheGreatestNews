@@ -42,8 +42,10 @@ public class MainActivity extends AppCompatActivity
                 GreatestNews greatestNews = mAdapter.getItem(position);
                 String url = greatestNews.getUrl();
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(url));
-                startActivity(intent);
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    intent.setData(Uri.parse(url));
+                    startActivity(intent);
+                }
             }
         });
         getSupportLoaderManager().initLoader(LOADER_ID, null, this);
