@@ -2,11 +2,11 @@ package com.ver2point0.android.thegreatestnews.Models;
 
 public class GreatestNews {
 
-    private String mTitle;
-    private String mAuthor;
-    private String mUrl;
-    private String mDate;
-    private String mTopic;
+    private final String mTitle;
+    private final String mAuthor;
+    private final String mUrl;
+    private final String mDate;
+    private final String mTopic;
 
     public GreatestNews(String title, String author, String url, String date, String topic) {
         mTitle = title;
