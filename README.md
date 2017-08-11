@@ -22,4 +22,4 @@ Get your news on the topics you love
 You need an API key from The Guardian API. Go to the class `QueryUtils`, find the `createStringUrl()` method and replace the query parameter value "test" for your API key. 
 
 # Screenshot
-<img src="https://cloud.githubusercontent.com/assets/12492121/26523842/bd9e44ae-42ee-11e7-97a4-faf495edfe97.png" width="300"/>
+<img src="https://user-images.githubusercontent.com/12492121/29232590-6950ec82-7eba-11e7-87f7-e92b83635550.png" width="300"/>
